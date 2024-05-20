@@ -27,14 +27,15 @@ It focuses on replicating the complex function of recognition  of the human eye 
 	[ A very important aspect to the architecture of computer vision is the area of Deep learning. With the advancement of machine learning and neural networks in the recent years the area of computer vision has seen great leaps in achievements even surpassing humans in some tasks of accurate detection and recognition. ]
 	
 ## Architecture ..
-	A great deal of computer vision is identifying and understanding patterns from visual data, but before this can be archived the model would have to be trained just like a human would have to be trained to distinguish between different visual data. This training would require a lot of data which could already have been labeled, [7].
-	To understand this image data being passed, the data would have to be analyzed because at its lowest level, computers only understand 1's and 0'. Convolutional neural networks help ML models see by fractionating images into pixels. Each pixel is given a label or tag to produce a matrix of this labels that the system can now interpret.
+A great deal of computer vision is identifying and understanding patterns from visual data, but before this can be archived the model would have to be trained just like a human would have to be trained to distinguish between different visual data. This training would require a lot of data which could already have been labeled, [7].
+To understand this image data being passed, the data would have to be analyzed because at its lowest level, computers only understand 1's and 0'. Convolutional neural networks help ML models see by fractionating images into pixels. Each pixel is given a label or tag to produce a matrix of this labels that the system can now interpret.
 These labels are then collectively used to carry out convolutions, a mathematical process that combines two functions to produce a third function. Through this process, convolutional neural networks can process visual inputs. [11]
-	The model would have to run analysis of data repeatedly till it can recognise patterns and distinctions between them to match the label as accurately as possible.
-Typically Computer Vision be handled in the following steps:
-	1. Acquiring training data (Images and Videos) [2].
-	2. Processing the data [2].
-	3. Understanding the data processed to acquire meaningfully information [2].
+The model would have to run analysis of data repeatedly till it can recognise patterns and distinctions between them to match the label as accurately as possible.
+
+Typically Computer Vision would be handled in the following steps:
+1. Acquiring training data (Images and Videos) [2].
+2. Processing the data [2].
+3. Understanding the data processed to acquire meaningfully information [2].
 	
 ### Computer Vision and Deep Learning: .
 	Deep Learning:
@@ -55,7 +56,7 @@ Visual Text translation offered by google translate uses Computer vision at it's
 
 #### Google translate working -- [fix heading]
 
-The process of google translate identifying and accurately translating data for the user, a number of steps would 
+The process of google translate identifying and accurately translating data for the user, a number of steps would taken to archive this.
 
 1. Firstly, when the image is passed, google translate app tries to identify important parts of the image that might hold text to be translated, this involves looking for blobs of pixel that have similar color and near other similar blobs. This blobs searched would also be checked if they could be in a line so we can continuously read them.
 
@@ -78,8 +79,7 @@ The process of google translate identifying and accurately translating data for 
 
 
 
-
-
+`Draft`
 3. architecture, .
 4. models/techniques/algorithms used in those topics listed,
 5. Preseñt a case study used in the topic, 
