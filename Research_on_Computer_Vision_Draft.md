@@ -49,6 +49,7 @@ Typically Computer Vision would be handled in the following steps:
 One of the very important application of Computer Vision is object detection. At this use case, the goal is to precisely  locate object of interest in an image or video. The task would be to identify the position and boundaries of objects in images or videos. [8, 9]
 One real world application of this model would be Google translate.
 
+### Google Translate in language translation
 _Google translate:_
 
 This is an online service developed and provided by Google that allows a variety of translation services supporting over 100 languages using Neural Machine models for detection to precisely translate between languages and improve it self over time.
@@ -67,6 +68,44 @@ The process of google translate identifying and accurately translating data for 
 4. Finally the words translated from the dictionary look-up would be passed to the user either read-out or rendered to screen as the final result from all the computation of the previous steps.
 
 
+### Challenges
+1.  Data Quality and Quantity
+- Data Annotation: The first issue that we face in computer vision is that a lot of training data are often needed for models to learn from. Annotation of data in fields like object detection and segmentation is a tedious and costly process (Gonzalez & Woods, 2018; Szeliski, 2022).
+- Data Variability: The change of light, occlusion, and shift in the perspective are some of the factors affecting the performance of the computer vision systems. It is still a challenge even to date to sustain such a form of resistance against such fluctuations (Szeliski, 2022).
+
+2.  Computational Complexity
+- Resource Requirements: The deep learning models based on CNN generally require a significant amount of computational resources for training and to make predictions. This includes factors such as high-performance graphic processing units, large memory, and many others.
+- Real-Time Processing: Real time computation for such jobs like video analysis and autonomous driving is challenging because of the higher demand for computational power (Krizhevsky, Sutskever & Hinton, 2012).
+
+3.  Model Interpretability
+- Black Box Nature: Shared characteristics of the deep learning models mean that the models are said to make their decisions in a black box. This is difficult particularly when it comes to certain applications like diagnosis of images in medicine or in automobiles that are self-driven (Ribeiro, Singh, & Guestrin, 2016).
+
+4.  Generalization and transfer learning
+- Domain Adaptation: It’s possible that some models, which work well in particular datasets, do not do so well when tested in other conditions – or on other datasets. This is why the concepts of domain adaptation and transfer learning exist, but they are still a thing to research (Pan & Yang, 2010).
+
+5. Ethical and privacy Issues.
+- Bias and Fairness: Introducing prejudice in the training data is quite risky because it births prejudice in the models which then results to prejudice. Prejudice is another challenge that has been highlighted several times (Buolamwini & Gebru, 2018).
+- Privacy Issues: Computer vision in surveillance and facial recognition pose a great threat to the general publics right to privacy. Such development should be controlled in a manner that would still protect the personal freedoms of citizens including privacy (Harwell, 2019).
+
+
+
+### Possibilities
+
+1. Advanced Healthcare Applications
+- Medical Imaging: Another way by which computer vision could transform the healthcare industry is through diagnosing illnesses in X-ray and MRI scans, and CT. Diagnostic assistance to the doctors is additional assistance that can be provided with the help of AI (Litjens et al. , 2017).
+
+2. Autonomous Vehicles
+- Self-Driving Cars: Autonomous vehicle would not be possible without computer vision as it helps to interpret the environment and then move within it. This will comprise of tasks such as objects detection, lane detection and traffic sign detection (Chen et al. , 2015).
+
+3. Enhanced Security and Surveillance
+- Intelligent Monitoring: Certain technologies like advanced computer vision systems can help in increasing security by performing monitoring/covert surveillance in real time as well as system anomaly detection. These systems can themselves detect and notify of emergent activities (Ren et al. , 2015).
+
+4. Improved User Experience
+- Augmented Reality (AR): In this publication we talked about how computer vision aids in language translation in an application like google translate. Computer vision is core to AR since it uses the camera to place virtual objects on a real environment in real-time. It can be applied in game and vectoring and in education aids (Azuma, 1997).
+- Facial Recognition: Facial recognition application may improve user experience in the security aspects, socializing in the social media platforms, and customized services (Parkhi et al. , 2015).
+
+5. Agricultural Automation
+- Precision Agriculture: Moreover, through computer vision, crop health can be continuously monitored, pests can be identified and harvesting can be mechanized which all lead to better yields in agriculture (Kamilaris & Prenafeta-Boldú, 2018).
 
 
 
@@ -80,8 +119,8 @@ The process of google translate identifying and accurately translating data for 
 
 
 `Draft`
-3. architecture, .
-4. models/techniques/algorithms used in those topics listed,
-5. Preseñt a case study used in the topic, 
+3. architecture, ....
+4. models/techniques/algorithms used in those topics listed,....
+5. Preseñt a case study used in the topic, ....
 6. give us the possibilities and challenges on the topics then provide a conclusion and recommendations on them, 
 
